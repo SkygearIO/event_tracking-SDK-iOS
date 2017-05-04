@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'SKYET_Example' do
+  pod 'SKYET', :path => '../'
+  pod 'SKYKit', '0.21.0'
+
+  target 'SKYET_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

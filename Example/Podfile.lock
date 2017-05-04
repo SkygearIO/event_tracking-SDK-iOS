@@ -1,0 +1,30 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - SKYET (0.1.0):
+    - SKYKit (>= 0.21)
+  - SKYKit (0.21.0):
+    - SKYKit/Core (= 0.21.0)
+  - SKYKit/Core (0.21.0):
+    - FMDB (~> 2.5)
+    - SocketRocket (~> 0.4)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - SKYET (from `../`)
+  - SKYKit (= 0.21.0)
+
+EXTERNAL SOURCES:
+  SKYET:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  SKYET: c13f9f24aa464b8273eba711ab29bc0d42fa35a7
+  SKYKit: 189ca397d45c08d9559d744c2ac0640a13b41072
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: 25c66096fa35cdbed8ade4a94d5a33662b7f04b1
+
+COCOAPODS: 1.2.1
