@@ -348,6 +348,7 @@ static NSUInteger kDefaultUploadLimit = 20;
         } else {
             NSUInteger newLength = self.events.count - length;
             _events = [[NSMutableArray alloc] initWithArray:[self.events subarrayWithRange:NSMakeRange(length, newLength)]];
+            [self persist];
         }
         dispatch_semaphore_signal(lock);
     }];
